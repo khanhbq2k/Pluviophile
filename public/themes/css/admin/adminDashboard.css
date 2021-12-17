@@ -1,0 +1,132 @@
+/* Admin Header */
+
+header{
+    font-size: 1.4rem;
+    padding: 20px 0px;
+}
+
+.header-admin{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.header-admin::after{
+    content: '';
+    position: absolute;
+    top: 180%;
+    width: 100%;
+    border-bottom: 1px solid var(--muted-border-light-color);
+}
+
+.header-admin .fa-user{
+    color: var(--color-primary);
+}
+
+.header-admin a{
+    color: var(--text-color);
+}
+
+.header-user{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header-user:hover ul{
+    display: block;
+}
+
+.header-user ul::before{
+    content: '';
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    top: -15px;
+    left: 0;
+
+}
+
+.header-user .username{
+    margin: 0 10px;
+}
+
+.header-user ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    right: 0px;
+    position: absolute;
+    top: 180%;
+    display: none;
+    z-index: 100;
+}
+
+.header-user li{
+    min-width: 120px;
+    height: 38px;
+    padding: 10px 10px 10px 22px;
+    border-radius: 2px;
+}
+
+.header-user li:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+/* // Admin Header */
+
+
+/* Admin Sidebar */
+
+.admin-sidebar{
+    font-size: 1.4rem;
+    position: relative;
+    width: 200px;
+    min-height: 619px;
+}
+
+.admin-sidebar-line{
+    position: absolute;
+    height: 98%;
+    top: 12px;
+    left: 150px;
+    border-right: 1px solid var(--muted-border-light-color);
+}
+
+.admin-sidebar ul{
+    padding: 0;
+}
+
+.admin-sidebar li{
+    margin: 30px 15px 30px 10px;
+    position: relative;
+}
+
+.admin-sidebar li::after{
+    position: absolute;
+    content: '';
+    left: -10px;
+    top: 160%;
+    width: 115px;
+    border-bottom: 1px solid var(--muted-border-light-color);
+}
+
+.admin-sidebar a{
+    color: var(--text-color);
+}
+
+/* // Admin Sidebar */
+
+.admin-dashboard{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 900;
+}
+
+.admin-dashboard img{
+    width: 70%;
+    margin-top: 20px;
+}

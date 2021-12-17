@@ -1,0 +1,122 @@
+.social-login img {
+    width: 24px;
+}
+
+.container.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-form {
+    width: 380px;
+    font-size: 1.4rem;
+    margin: auto;
+    border-radius: 10px;
+    background-color: var(--white-color);
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .logo-img{
+    display: block;
+    margin: 20px auto;
+}
+
+.login-form .title {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    margin: 10px 0px 0px 0px;
+}
+
+.login-form .subtitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.login-form .btn-text {
+    margin: 0;
+}
+
+.login-form .social-login {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.login-form .google-btn {
+    background: #fff;
+    border: solid 2px rgb(245 239 239);
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    padding: 10px 10px;
+    flex: auto;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.login-form .fb-btn {
+    background: #fff;
+    border: solid 2px var(--color-primary);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.login-form .or {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(245 239 239);
+    line-height: 0.1em;
+    margin: 25px 0;
+}
+
+.login-form .or span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.login-form .email-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form .email-login label {
+    color: rgb(170 166 166);
+}
+
+.login-form input {
+    padding: 12px 20px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.login-form input:focus{
+    border: 1px solid var(--color-primary);
+}
+
+.login-form .cta-btn {
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 12px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.login-form .forget-pass {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}

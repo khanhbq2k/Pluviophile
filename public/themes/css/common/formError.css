@@ -1,0 +1,84 @@
+#msg {
+    min-width: 260px;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 300;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    visibility: hidden;
+}
+
+#msg.show{
+    visibility: visible;
+    animation: toastfadein 0.5s, toastfadeout 0.5s 3.5s;
+}
+
+#msg .fas{
+    color: #d64550;
+    font-size: 2.4rem;
+}
+
+#msg .far{
+    color: #70c770;
+    font-size: 2.4rem;
+}
+
+#msg .ti-close{
+    color: #888;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+#msg ul{
+    padding: 0;
+    margin: 0px 15px;
+}
+
+#msg li{
+    padding-bottom: 6px;
+}
+
+#msg li:last-child{
+    padding-bottom: 0px !important;
+}
+
+.success {
+    color: #3f6923;
+    border: 1px solid #92f792;
+    background: #ccf5cc;
+}
+
+.error {
+    color: #752028;
+    border: 1px solid #ec9299;
+    background: #f8d7da;
+}
+
+@keyframes toastfadein {
+    from {
+        top: 300px;
+        opacity: 0;
+    }
+    to {
+        top: 100px;
+        opacity: 1;
+    }
+}
+
+@keyframes toastfadeout {
+    from {
+        top: 100px;
+        opacity: 1;
+    }
+    to {
+        top: 0px;
+        opacity: 0;
+    }
+}

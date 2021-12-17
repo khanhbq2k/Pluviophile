@@ -1,0 +1,32 @@
+.page-header{
+    height: 200px;
+    padding-top: 50px;
+}
+
+.page-header-text{
+    font-weight: 900;
+    font-size: 4.6rem;
+    line-height: 4.6rem;
+    margin-bottom: 15px;
+}
+
+.breadcrumb{
+    display: flex;
+    position: relative;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    align-items: center;
+}
+
+.breadcrumb i{
+    font-size: 0.8rem;
+    margin: 0 20px;
+}
+
+.breadcrumb::after{
+    content: '';
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    border-bottom: 1px solid var(--muted-border-light-color);
+}

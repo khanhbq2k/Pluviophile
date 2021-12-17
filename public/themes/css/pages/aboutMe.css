@@ -1,0 +1,40 @@
+.about-me img{
+    width: 400px;
+}
+
+.about-me span{
+    font-weight: 900;
+    line-height: 4.5rem;
+    color: var(--color-primary);
+}
+
+.about-me h2{
+    font-size: 4.2rem;
+    line-height: 4.5rem;
+    font-weight: 900;
+}
+
+.about-me p{
+    width: 300px;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+}
+
+.about-me iframe{
+    margin: 50px 0px 100px 0px !important;
+    width: 100%;
+    height: 520px;
+}
+
+@media only screen and (min-width:800px) and (max-width: 1200px) {
+    .about-me img{
+        width: 280px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .about-me iframe{
+        height: 260px;
+    }
+}

@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+    color: var(--text-color-dark);
+}
+
+ul {
+    list-style-type: none;
+}
+
+input:focus{
+    border: 1px solid var(--color-primary);
+}
+
+textarea:focus{
+    border: 1px solid var(--color-primary);
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    0%{
+        height: 0%;
+        top: calc(-100%+134px);
+    }
+    100%{
+        height: 100%;
+        top: 134px;
+    }
+}
+
+@keyframes grow {
+    0%{
+        transform: scale(--grow-from);
+    }
+    100%{
+        transform: scale(--grow-to);
+    }
+}

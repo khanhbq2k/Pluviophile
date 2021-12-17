@@ -1,0 +1,49 @@
+@import url('./common/button.css');
+@import url('./common/base.css');
+@import url('./common/logo.css');
+@import url('./common/formError.css');
+@import url('./common/breadcrumb.css');
+@import url('./layout/header.css');
+@import url('./layout/footer.css');
+@import url('./layout/search-form.css');
+@import url('./pages/home.css');
+@import url('./pages/contact.css');
+@import url('./pages/login.css');
+@import url('./pages/aboutMe.css');
+@import url('./pages/register.css');
+@import url('./pages/single.css');
+@import url('./admin/adminDashboard.css');
+@import url('./admin/adminManage.css');
+@import url('../fonts/themify-icons/themify-icons.css');
+@import url('./responsive.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;700;900&display=swap');
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #687385;
+    --text-color-dark: #333;
+    --border-color: #BDBDBD;
+    --color-primary: #5869DA;
+    --color-secondary: #2d3d8b;
+    --color-danger: #e3363e;
+    --primary-font: 'Source Sans 3', sans-serif;
+    --muted-border-light-color: #dfdfdf;
+    --muted-border-dark-color: #acacac;
+}
+
+* {
+    font-family: var(--primary-font);
+    box-sizing: inherit;
+}
+
+html,
+body {
+    margin: 0px;
+    font-size: 72%;
+    /* font-size: 62.5%; */
+    line-height: 1.6rem;
+    font-family: var(--primary-font);
+    box-sizing: border-box;
+    color: var(--text-color-dark);
+}

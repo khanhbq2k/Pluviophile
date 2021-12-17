@@ -1,0 +1,44 @@
+.contact-page {
+    font-size: 1.5rem;
+}
+
+.contact-info p{
+    margin: 20px 0px;
+}
+
+.contact-form{
+    margin-bottom: 50px;
+}
+
+.contact-form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+
+.contact-label{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact-label.required::after{
+    content: "*";
+    color: red;
+    font-size: 1.4rem;
+}
+
+.contact-form-input{
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 40px;
+    padding: 6px 12px;
+}
+
+#contact-content{
+    height: 130px;
+}
+
+.contact-button{
+    margin-left: 10px;
+}

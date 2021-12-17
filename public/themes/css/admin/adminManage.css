@@ -1,0 +1,139 @@
+.admin-content {
+    font-size: 1.4rem;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width:800px) {
+    .admin-wrapper form {
+        width: 200px !important;
+    }
+}
+
+.dashboard {
+    color: var(--text-color-dark) !important;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.page-views {
+    margin: 30px;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.admin-content h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--text-color-dark);
+    font-weight: 700;
+}
+
+.button-group {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.button-group .btn {
+    margin: 0 3px;
+}
+
+table {
+    font-size: 1.5rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    cursor: pointer;
+}
+
+th,
+td {
+    padding: 15px 5px 15px 10px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+    line-height: 2rem
+}
+
+.edit {
+    color: rgb(0, 165, 0);
+}
+
+.delete {
+    color: rgb(255, 85, 85);
+}
+
+.publish {
+    color: var(--color-primary);
+}
+
+.unpublish {
+    color: var(--color-primary);
+}
+
+.admin-wrapper form {
+    width: 600px;
+}
+
+.admin-wrapper form label {
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: flex;
+    color: var(--text-color);
+    align-items: center;
+}
+
+.admin-wrapper form input {
+    padding: 10px;
+    min-height: 40px;
+    outline: none;
+    border: 1px solid var(--muted-border-light-color);
+    border-radius: 5px;
+}
+
+.admin-wrapper form .admin-checkbox {
+    margin-left: 10px;
+    width: 18px;
+}
+
+.admin-wrapper form input:focus {
+    border: 1px solid var(--color-primary) !important;
+    border-radius: 5px;
+}
+
+.admin-wrapper form textarea {
+    border-radius: 5px !important;
+    border: 1px solid var(--muted-border-light-color);
+    outline: none;
+    padding: 10px;
+}
+
+.ck-editor__editable_inline {
+    min-height: 100px !important;
+}
+
+.admin-wrapper form textarea:focus {
+    border: 1px solid var(--color-primary) !important;
+}
+
+.admin-wrapper form select {
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.admin-wrapper form div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-wrapper .btn {
+    margin-top: 10px;
+}
