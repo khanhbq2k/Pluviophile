@@ -3,16 +3,15 @@ Special thanks to Dr., Assoc. Prof. Trung Kien Dao for your teaching and
 guidance in the 20211 Web Course.
 
 Follow these steps to install a local version:
-1. Clone project from github
-
-&nbsp;&nbsp;&nbsp;&nbsp; > ```git clone https://github.com/c0lydxMas/Pluviophile```
+1. Clone project from github <br/>
+> ```git clone https://github.com/c0lydxMas/Pluviophile```
 
 2. Install XAMPP: https://www.apachefriends.org/download.html
 
 3. Copy and paste project folder to ```%YOUR_XAMPP_LOCATION%/xampp/htdocs/```
 
 4. Start XAMPP Apache and MySQL <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;> **Warning**: Make sure that Apache Server starts on port 80
+> **Warning**: Make sure that Apache Server starts on port 80
 
 5. Open PHPMyAmin Control Panel in localhost:80/phpmyadmin <br/>
 Import the pluviophile.sql file inside the project folder to phpmyadmin
