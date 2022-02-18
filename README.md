@@ -5,7 +5,7 @@ guidance in the 20211 Web Course.
 Follow these steps to install a local version:
 1. Clone project from github
 
-git clone https://github.com/c0lydxMas/Pluviophile
+  git clone https://github.com/c0lydxMas/Pluviophile
 
 2. Install XAMPP
 https://www.apachefriends.org/download.html
@@ -23,5 +23,5 @@ Import the pluviophile.sql file inside the project folder to phpmyadmin
 
 7. Open localhost:80/Pluviophile and enjoy!
 
-Live demo: http://pluviophile.eastasia.cloudapp.azure.com/
+Live demo: http://pluviophile.eastasia.cloudapp.azure.com/ <br />
 (The link above may not work properly due to financial shortage, i only got $100 for my edu account)
