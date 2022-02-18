@@ -5,7 +5,7 @@ guidance in the 20211 Web Course.
 Follow these steps to install a local version:
 1. Clone project from github
 
-&nbsp;&nbsp;&nbsp;&nbsp;git clone https://github.com/c0lydxMas/Pluviophile
+&nbsp;&nbsp;&nbsp;&nbsp;>git clone https://github.com/c0lydxMas/Pluviophile
 
 2. Install XAMPP
 https://www.apachefriends.org/download.html
