@@ -14,7 +14,7 @@ Follow these steps to install a local version:
 > **Warning**: Make sure that Apache Server starts on port 80
 
 5. Open PHPMyAmin Control Panel in localhost:80/phpmyadmin <br/>
-Import the pluviophile.sql file inside the project folder to phpmyadmin
+Import the ```pluviophile.sql``` file inside the project folder to phpmyadmin
 
 6. Open with any text editor, change the credentials in <br/>
 ```Pluviophile/app/database/connect.php``` with your own phpmyadmin username and password and <br/>
