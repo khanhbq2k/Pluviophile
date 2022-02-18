@@ -24,4 +24,4 @@ Import the pluviophile.sql file inside the project folder to phpmyadmin
 7. Open localhost:80/Pluviophile and enjoy!
 
 Live demo: http://pluviophile.eastasia.cloudapp.azure.com/ <br/>
-(The link above may not work properly due to financial shortage, i only got $100 for my edu account)
+(The link above may not work properly due to financial shortage, i only got $100 free for my edu account)
