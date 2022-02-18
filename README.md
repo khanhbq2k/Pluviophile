@@ -12,7 +12,7 @@ Follow these steps to install a local version:
 3. Copy and paste project folder to ```%YOUR_XAMPP_LOCATION%/xampp/htdocs/```
 
 4. Start XAMPP Apache and MySQL <br/>
-> **Warning**:Make sure that Apache Server starts on port 80
+&nbsp;&nbsp;&nbsp;&nbsp;> **Warning**: Make sure that Apache Server starts on port 80
 
 5. Open PHPMyAmin Control Panel in localhost:80/phpmyadmin <br/>
 Import the pluviophile.sql file inside the project folder to phpmyadmin
