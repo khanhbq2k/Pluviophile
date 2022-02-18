@@ -12,9 +12,10 @@ https://www.apachefriends.org/download.html
 
 3. Copy and paste project folder to ```%YOUR_XAMPP_LOCATION%/xampp/htdocs/```
 
-4. Start XAMPP Apache and MySQL (Make sure that Apache Server starts on port 80)
+4. Start XAMPP Apache and MySQL <br/>
+> :warning: **Warning**:Make sure that Apache Server starts on port 80
 
-5. Open PHPMyAmin Control Panel in localhost:80/phpmyadmin
+5. Open PHPMyAmin Control Panel in localhost:80/phpmyadmin <br/>
 Import the pluviophile.sql file inside the project folder to phpmyadmin
 
 6. Open with any text editor, change the credentials in <br/>
