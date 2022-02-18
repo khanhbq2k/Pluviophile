@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // var path = 'pluviophile.eastasia.cloudapp.azure.com';
     var path = 'localhost:80/Pluviophile';
 
     var postId = $('#post-id').attr('value');
