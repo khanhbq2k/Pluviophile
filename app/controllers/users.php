@@ -26,7 +26,7 @@ function loginUser($user)
     $_SESSION['message'] = 'Logged in successfully';
     $_SESSION['type'] = 'success';
 
-    setcookie("email", $_POST["email"], time() + 60 * 60);
+    //setcookie("email", $_POST["email"], time() + 60 * 60);
 
     if ($_SESSION['admin']) {
         header('location: ' . BASE_URL . '/admin/dashboard.php');
@@ -130,7 +130,7 @@ if (isset($_GET['id'])) {
 
     $id = $user['id'];
     $username = $user['username'];
-    $fullname = $_POST['fullname'];
+    $fullname = $user['fullname'];
     $admin = $user['admin'];
     $email = $user['email'];
 }

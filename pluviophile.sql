@@ -6,6 +6,8 @@
 -- Generation Time: Dec 15, 2021 at 04:13 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.3
+CREATE DATABASE pluviophile;
+USE pluviophile;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
