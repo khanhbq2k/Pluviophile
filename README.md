@@ -25,7 +25,7 @@ Import the ```pluviophile.sql``` file inside the project folder to phpmyadmin
 
 7. Open localhost:80/Pluviophile and enjoy!
 8. Admin account: <br/>
-```Username: admin```
+```Username: admin``` <br/>
 ```Password: 123```
 
 
