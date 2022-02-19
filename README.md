@@ -2,6 +2,9 @@
 Special thanks to Dr., Assoc. Prof. Trung Kien Dao for your teaching and 
 guidance in the 20211 Web Course.
 
+Live demo: http://pluviophile.eastasia.cloudapp.azure.com/ <br/>
+(The link above may not work properly due to financial shortage, i only got $100 free for my edu account)
+
 Follow these steps to install a local version:
 1. Clone project from github <br/>
 > ```git clone https://github.com/c0lydxMas/Pluviophile```
@@ -21,6 +24,8 @@ Import the ```pluviophile.sql``` file inside the project folder to phpmyadmin
 ```Pluviophile/public/path.php``` with your corresponding root path.
 
 7. Open localhost:80/Pluviophile and enjoy!
+8. Admin account: <br/>
+```Username: admin```
+```Password: 123```
 
-Live demo: http://pluviophile.eastasia.cloudapp.azure.com/ <br/>
-(The link above may not work properly due to financial shortage, i only got $100 free for my edu account)
+
