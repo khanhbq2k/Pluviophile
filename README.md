@@ -3,7 +3,7 @@ Special thanks to Dr., Assoc. Prof. Trung Kien Dao for your teaching and
 guidance in the 20211 Web Course.
 
 Live demo: http://pluviophile.eastasia.cloudapp.azure.com/ <br/>
-(The link above may not work properly due to financial shortage, i only got $100 free for my edu account)
+(The link above may not work properly due to financial shortage)
 
 Follow these steps to install a local version:
 1. Clone project from github <br/>
